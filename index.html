@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet" type="text/css" href="grafica.css">
+    </head>
+    <body>
+        <a href="index.php">HomePage</a>
+        <center><Img id='logo1'src = "unime.png" alt = "Unime"></center>
+        <div id="container-login">
+            <h2>Login alla piattaforma</h2>
+            <div id="container-form">
+                <form id="form" method="post" action="autenticazione.php">
+                    <label class="form-label" for="email">Email</label><br>
+                    <input class="form-input" type="email" name="email" required><br>
+                    <label class="form-label" for="pass">Password</label><br>
+                    <input class="form-input" type="password" name="pass" required><br>
+                    <input id="button" name="login" type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
